@@ -1,5 +1,5 @@
 # marquee
-A react component that shows a scrolling area of text
+A react component that shows a scrolling area of text.
 
 ## Examples
 ```javascript
@@ -15,12 +15,14 @@ export default () => {
 ```
 
 ## Props
-### speed
-Scroll speed.  
+`speed`{number}  
+Scroll speed(px/s).  
   
-### gapWidth
+----
+`gapWidth`{number}  
 The gap width between the text and the next next.  
   
-### delay
+----
+`delay`{number}  
 The time, in milliseconds, the text should wait before scrolling.  
   
