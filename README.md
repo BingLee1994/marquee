@@ -26,6 +26,7 @@ The gap width between the text and the next next.
 `delay`{number}  
 The time, in milliseconds, the text should wait before scrolling.  
   
+----
 # marquee
 可以显示跑马灯（如果文本太长）的react组件。
 
@@ -44,7 +45,7 @@ export default () => {
 
 ## Props
 `speed`{number}  
-滚动速度（像素、秒）。  
+滚动速度（像素/秒）。  
   
 ----
 `gapWidth`{number}  
@@ -52,5 +53,5 @@ export default () => {
   
 ----
 `delay`{number}  
-延时滚动的事件（毫秒） 。
+延时滚动的时间（毫秒） 。
   
