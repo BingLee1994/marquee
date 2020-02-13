@@ -7,7 +7,7 @@ import Marquee from 'component/marquee';
 
 export default () => {
   return (
-    <div style={{width: 200}}>
+    <div style={{width: 200, fontSize: 20}}>
       <Marquee>The Marquee react component</Marquee>
     </div>
   )
